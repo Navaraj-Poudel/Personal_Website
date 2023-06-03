@@ -1,0 +1,124 @@
+.home-details{
+    font-size:4.4rem;
+    font-weight: 700;
+    letter-spacing:.1rem;
+    height:50vh;
+    width:40vw;
+    margin-top:13rem ;
+    margin-left:25rem ;
+    font-style:  'Poppins', sans-serif;
+}
+.home-details span{
+    color: #360F88;
+}
+.home-button button{
+font-size:2rem;
+width:10vw;
+height:6.1vh;
+border-radius:0.8rem;
+background-color: #360F88;
+color: white;
+font-weight: 500;
+}
+.homeimages{
+    height:60vh;
+    width:20vw;
+    margin-top:1rem;
+    margin-left:5rem;
+}
+.homeimages img{
+    height:42vh;
+    width:20vw;
+    border-radius: 50%;
+    margin-top: 15rem;
+}
+.Home{
+    display: flex;
+}
+.homelink{
+    width: 20vw;
+    margin-left:30rem;
+    margin-top:10rem;
+}
+.homelink img{
+   width:2vw;
+   margin-right: 4rem;
+}
+@media(min-width:896px) and (max-width:1089px){
+  .home-details{
+    margin-top:10rem ;
+    margin-left:19rem ;
+    font-size:3rem;
+  }
+  .homelink{
+    margin-top:5rem;
+  }
+  .homelink img{
+    width:2vw;
+    margin-right: 4rem;
+ }
+ .homeimages img{
+    height:45vh;
+    width:30vw;
+    border-radius: 50%;
+    margin-top: 15rem;
+}
+}
+@media(min-width:1089px){
+      .home-button button{
+        height:6.5vh;
+      }
+      .homelink img{
+        width:2vw;
+        margin-right: 4rem;
+     }
+}
+@media(max-width:873px){
+    .home-details{
+        margin-top:10rem ;
+        margin-left:19rem ;
+        font-size:3rem;
+      }
+      .homeimages img{
+        height:40vh;
+        width:31vw;
+        border-radius: 50%;
+        margin-top: 12rem;
+    }
+    .homelink img{
+        width:3vw;
+        margin-right: 4rem;
+     }
+     .home-button button{
+        width: 15vw;
+      }
+}
+@media(max-width:597px){
+    .home-details{
+        margin-top:10rem ;
+        margin-left:25rem ;
+        font-size:2.8rem;
+      }
+      .homeimages img{
+        height:40vh;
+        width:50vw;
+        border-radius: 50%;
+        margin-top:-13rem;
+        margin-left:10rem;
+    }
+    .homelink img{
+        width:4vw;
+        margin-right: 3rem;
+     }
+     .Home{
+        display: block;
+     }
+     .homelink{
+        width: 30vw;
+        margin-left:25rem; 
+        margin-top:-15rem ; 
+      }
+      .home-button button{
+        width: 20vw;
+      }
+}
