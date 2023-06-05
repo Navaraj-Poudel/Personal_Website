@@ -1,0 +1,41 @@
+.contact_title{
+    font-size:3.2rem;
+    font-weight:750;
+    margin-left: auto;
+    margin-right: auto;
+    color: #360F88;
+    margin-top:0.4rem;
+    width:7.3vw;
+    border-bottom:0.3rem solid #360F88;
+}
+.box{
+    margin-left: 600px;
+    margin-top: 30px;
+    width:40vw;
+    height:28vh;
+
+}
+::-webkit-input-placeholder {
+    text-align:center;
+  }
+.box input{
+    width:30vw ;
+    height:8vh;
+    font-size:17px;
+    font-weight: 600;
+    border-radius: 7px;
+    border: 1px solid black;}
+.textarea{
+    margin-left: 600px;
+    margin-top:0px;
+    width:40vw;
+    height: 40vh;
+}
+.textarea textarea{
+    width:30vw;
+    height: 30vh;
+    border: 1px solid black;
+    border-radius:7px;
+    font-size:17px;
+    font-weight: 600;
+}

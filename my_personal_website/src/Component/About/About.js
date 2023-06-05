@@ -28,13 +28,13 @@ const About = () => {
             <br /> <br />
             <h2>+2 Science</h2>
             <p>Kanti higher secondary school</p>
-            <span>2018--------------------------2023</span>
+            <span>2015--------------------------2018</span>
             <br />
             <br />
             <br />
             <h2>SLC(School Leaving Certificate)</h2>
             <p>Pashchimanchal Campus Pokhara</p>
-            <span>2018--------------------------2023</span>
+            <span>2005--------------------------2015</span>
           </div>
         </div>
       </div>

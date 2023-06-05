@@ -1,11 +1,11 @@
 .abouttitle{
-    font-size: 3.5rem;
-    font-weight: 700;
+    font-size: 3rem;
+    font-weight: 750;
     margin-left: auto;
     margin-right: auto;
     color: #360F88;
     margin-top:0.4rem;
-    width:6.5vw;
+    width:6vw;
     border-bottom:0.3rem solid #360F88;
 }
 .aboutsection{
@@ -61,7 +61,8 @@
 @media(max-width:896px){
     .aboutmyself{
         margin-left:17rem;
-        width:35vw;
+        width:29vw;
+        margin-top:3rem;
     }
     .aboutPhoto{
         margin-left:12rem;
@@ -73,7 +74,7 @@
         width:35vw;
      }
      .abouttitle{
-        width:9vw;
+        width:8vw;
         border-bottom:0.4rem solid #360F88;
     }
 }
@@ -92,7 +93,7 @@
         width: 30vw;
     }
     .abouttitle{
-        width:11vw;
+        width:10vw;
         border-bottom:0.3rem solid #360F88;
     }
 
@@ -102,7 +103,7 @@
         margin-left:10rem;
     }
     .abouttitle{
-        width:9vw;
+        width:8vw;
         border-bottom:0.3rem solid #360F88;
     }
 }
@@ -117,7 +118,7 @@
     margin-left:20rem;
 }
 .abouttitle{
-    width:11vw;
+    width:10vw;
     border-bottom:0.4rem solid #360F88;
 }
 }
@@ -133,7 +134,7 @@
     }
     .abouttitle{
         margin-left:33rem ;
-        width:14vw;
+        width:12vw;
         border-bottom:0.4rem solid #360F88;
     }
     .aboutmyself{
