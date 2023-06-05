@@ -1,0 +1,147 @@
+.abouttitle{
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    color: #360F88;
+    margin-top:0.4rem;
+    width:6.5vw;
+    border-bottom:0.3rem solid #360F88;
+}
+.aboutsection{
+    display: flex;
+}
+.aboutPhoto{
+    width:27vw;
+    height: 70vh;
+    margin-left: 20rem;
+    margin-top: 5rem;
+}
+.aboutPhoto img{
+    width: 25vw;
+    height: 70vh;
+    border-radius:50rem;
+}
+.aboutmyself{
+    height: 25vh;
+    width: 30vw;
+   margin-left:20rem;
+   margin-top: 3rem;
+   /* border-bottom: 1px solid black; */
+}
+.aboutmyself h2{
+    font-size:2.5rem;
+    font-weight:700;
+}
+.aboutmyself p{
+    font-size:1.7rem;
+    font-weight: 500;
+    opacity: 80%;
+    margin-top:1rem;
+}
+.abouteducation{
+    width: 31vw;
+    border-top:0.2rem solid black ;
+    height: 50vh;
+}
+.abouteducation h2{
+    font-weight:700;
+    opacity: 99%;
+}
+.abouteducation p{
+    font-size:1.7rem;
+    font-weight:640;
+    color:#360F88;
+}
+.abouteducation span{
+    font-size: 1.5rem;
+    font-weight:780;
+    color: #360F88;
+}
+@media(max-width:896px){
+    .aboutmyself{
+        margin-left:17rem;
+        width:35vw;
+    }
+    .aboutPhoto{
+        margin-left:12rem;
+    }
+    .aboutPhoto img{
+        width: 36vw;
+    }
+    .abouteducation{
+        width:35vw;
+     }
+     .abouttitle{
+        width:9vw;
+        border-bottom:0.4rem solid #360F88;
+    }
+}
+@media(min-width:896px) and (max-width:1024px){
+    .aboutmyself{
+        margin-left: 10rem;
+        width:40vw;
+    }
+    .aboutPhoto{
+        margin-left:10rem;
+    }
+    .abouteducation{
+       width:40vw;
+    }
+    .aboutPhoto img{
+        width: 30vw;
+    }
+    .abouttitle{
+        width:11vw;
+        border-bottom:0.3rem solid #360F88;
+    }
+
+}
+@media(min-width:1024px) and (max-width:1200px) {
+    .aboutPhoto{
+        margin-left:10rem;
+    }
+    .abouttitle{
+        width:9vw;
+        border-bottom:0.3rem solid #360F88;
+    }
+}
+@media(max-width:660px){
+.aboutPhoto{
+    margin-left:5rem;
+}
+.aboutPhoto img{
+    width: 39vw;
+}
+.aboutmyself{
+    margin-left:20rem;
+}
+.abouttitle{
+    width:11vw;
+    border-bottom:0.4rem solid #360F88;
+}
+}
+@media(max-width:550px){
+    .aboutsection{
+        display: block;
+    }
+    .aboutPhoto{
+    margin-left:20rem;
+    }
+    .aboutPhoto img{
+        width:50vw;
+    }
+    .abouttitle{
+        margin-left:33rem ;
+        width:14vw;
+        border-bottom:0.4rem solid #360F88;
+    }
+    .aboutmyself{
+        margin-left:25rem;
+        margin-top:6rem;
+        width:50vw ;
+    }
+    .abouteducation{
+        width:50vw;
+    }
+}

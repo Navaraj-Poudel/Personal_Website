@@ -3,7 +3,6 @@ import './style.css'
 import H from '../images/home.JPG'
 import L from '../images/linkdin.png'
 import G from '../images/github1.png'
-import Button from '@mui/material/Button';
 const Home = () => {
   return (
     <>
