@@ -4,7 +4,7 @@ const Works = () => {
   return (
     <div>
       <div>
-        haha i najaj jdjd
+        i am works page
       </div>
     </div>
   )
