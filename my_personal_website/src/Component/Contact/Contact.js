@@ -6,6 +6,7 @@ import {BsInstagram} from 'react-icons/bs';
 import {BsLinkedin} from 'react-icons/bs';
 import {BsTwitter} from 'react-icons/bs';
 import {BsGithub} from 'react-icons/bs';
+import { Link } from 'react-router-dom';
 import TextField from '@mui/material/TextField';
 const Contact = () => {
   const[name,setName] = useState("Name")
@@ -57,19 +58,48 @@ const Contact = () => {
              </div>
              <div className="socialmediaicon">
               <div className="facebook">
-             <BsFacebook/>
+                <Link to="/about">
+                  <p>
+
+                <BsFacebook/>
+                  </p>
+                </Link>
               </div>
               <div className="facebook">
-             <BsInstagram/>
+              <Link to="/about">
+                <p>
+
+                <BsInstagram/>
+                </p>
+                </Link>
+             
               </div>
               <div className="facebook">
-             <BsLinkedin/>
+              <Link to="/about">
+                <p>
+
+                <BsLinkedin/>
+                </p>
+                </Link>
+             
               </div>
               <div className="facebook">
-             <BsGithub/>
+              <Link to="/about"> 
+              <p>
+
+              <BsGithub/>
+              </p>
+              </Link>
+
+            
               </div>
               <div className="facebook">
-             <BsTwitter/>
+              <Link to="/about"> 
+              <p>
+              <BsTwitter/>
+              </p>
+              </Link>
+
               </div>
              </div><br />
              <div className="footer_bottom">

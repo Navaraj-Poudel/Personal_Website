@@ -4,7 +4,13 @@ import H from '../images/home.JPG'
 import L from '../images/linkdin.png'
 import G from '../images/github1.png'
 import About from '../About/About'
+import Typed from 'react-typed'
+import { useTypewriter, Cursor } from 'react-simple-typewriter'
 const Home = () => {
+  const typed = useTypewriter({
+    words : ['Developer','dkdjd','kdkdkd'],
+    loop : {},
+  });
   return (
     <>
     
@@ -14,8 +20,19 @@ const Home = () => {
     <div className='home-details'>
         <p>
             Hi,<br />
-            I'am <span> Navaraj Poudel</span><br />
-            Web developer
+            It's me <span> Navaraj Poudel</span><br />
+            I am a <span>
+            <Typed
+            strings={[
+              "Frontend Developer",
+              "Web Designer",
+              "Web Developer",
+            ]}
+            typeSpeed={150}
+            backSpeed={100}
+            loop
+            />
+            </span>
         </p>
         <div className='home-button'>  
       <button>Resume</button> 

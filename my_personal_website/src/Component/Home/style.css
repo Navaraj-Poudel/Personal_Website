@@ -97,6 +97,7 @@ font-weight: 500;
     .home-details{
         margin-top:10rem ;
         margin-left:25rem ;
+        width: 55vw;
         font-size:2.8rem;
       }
       .homeimages img{
