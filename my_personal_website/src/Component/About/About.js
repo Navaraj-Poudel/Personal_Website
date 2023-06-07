@@ -33,7 +33,7 @@ const About = () => {
             <br />
             <br />
             <h2>SLC(School Leaving Certificate)</h2>
-            <p>Pashchimanchal Campus Pokhara</p>
+            <p>Shree shaligram higher secondary school</p>
             <span>2005--------------------------2015</span>
           </div>
         </div>

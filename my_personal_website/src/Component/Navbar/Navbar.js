@@ -1,12 +1,14 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faBars} from '@fortawesome/free-solid-svg-icons'
+import H from '../images/home.JPG'
 import './style.css'
 import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
     <div className='Navbar'>
         <div className='navbar-logo'>
+            <img src={H} alt="" />
             <p>Navaraj Poudel</p>
         </div>
 

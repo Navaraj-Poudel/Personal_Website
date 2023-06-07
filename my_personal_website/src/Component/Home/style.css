@@ -27,8 +27,8 @@ font-weight: 500;
     margin-left:5rem;
 }
 .homeimages img{
-    height:42vh;
-    width:20vw;
+    /* height:42vh; */
+    width:23vw;
     border-radius: 50%;
     margin-top: 15rem;
 }
@@ -61,7 +61,7 @@ font-weight: 500;
     height:45vh;
     width:30vw;
     border-radius: 50%;
-    margin-top: 15rem;
+    margin-top: 10rem;
 }
 }
 @media(min-width:1089px){

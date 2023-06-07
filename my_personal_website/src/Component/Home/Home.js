@@ -3,6 +3,7 @@ import './style.css'
 import H from '../images/home.JPG'
 import L from '../images/linkdin.png'
 import G from '../images/github1.png'
+import About from '../About/About'
 const Home = () => {
   return (
     <>

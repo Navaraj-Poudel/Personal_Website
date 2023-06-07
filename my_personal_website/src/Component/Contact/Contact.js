@@ -1,5 +1,11 @@
 import React, { useState } from 'react'
 import './style.css'
+import Button from '@mui/material/Button';
+import {BsFacebook} from 'react-icons/bs';
+import {BsInstagram} from 'react-icons/bs';
+import {BsLinkedin} from 'react-icons/bs';
+import {BsTwitter} from 'react-icons/bs';
+import {BsGithub} from 'react-icons/bs';
 import TextField from '@mui/material/TextField';
 const Contact = () => {
   const[name,setName] = useState("Name")
@@ -33,14 +39,44 @@ const Contact = () => {
         onClick={()=>setEmail("")}
         onChange={emailChange}
         />
-          </div>
+          </div><br /> <br /> <br /><br />
           <div className="textarea">
             <textarea 
             placeholder={message}
             onChange={messagechange}
             onClick={()=>setMessage("")}
             />
+          </div><br /><br /><br />
+
+          <div className="contact_button">
+          <Button  variant="contained">Submit</Button>
+          </div><br /><br />
+          <div className="footer"><br /><br />
+             <div className="footer_title">
+             <p> Get In Touch</p>
+             </div>
+             <div className="socialmediaicon">
+              <div className="facebook">
+             <BsFacebook/>
+              </div>
+              <div className="facebook">
+             <BsInstagram/>
+              </div>
+              <div className="facebook">
+             <BsLinkedin/>
+              </div>
+              <div className="facebook">
+             <BsGithub/>
+              </div>
+              <div className="facebook">
+             <BsTwitter/>
+              </div>
+             </div><br />
+             <div className="footer_bottom">
+            <p>  @ 2022 copyright all right reserved</p>
+             </div>
           </div>
+          
     </>
   )
 }

@@ -13,11 +13,19 @@ html{
     align-items: center;
     justify-content:space-between;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;}
+    .navbar-logo{
+        display: flex;
+        align-items: center;
+    }
  .navbar-logo p{
     color:black;
     font-size: 2.1rem;
     font-weight: 700;
-    margin: 10rem;
+}
+.navbar-logo img{
+    width:3vw;
+    border-radius:90%;
+    margin:5rem;
 }
 .navbar-item a{
   color:black;
