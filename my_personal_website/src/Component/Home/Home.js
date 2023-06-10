@@ -15,8 +15,6 @@ const Home = () => {
     <>
     
     <div className='Home'>
-
-    
     <div className='home-details'>
         <p>
             Hi,<br />

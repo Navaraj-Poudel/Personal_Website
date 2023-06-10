@@ -6,6 +6,8 @@
     width:40vw;
     margin-top:13rem ;
     margin-left:25rem ;
+    /* margin-right: auto;
+    margin-left: auto; */
     font-style:  'Poppins', sans-serif;
 }
 .home-details span{
@@ -22,9 +24,11 @@ font-weight: 500;
 }
 .homeimages{
     height:60vh;
-    width:20vw;
+    width:35vw;
     margin-top:1rem;
     margin-left:5rem;
+    /* margin-right: auto;
+    margin-left: auto; */
 }
 .homeimages img{
     /* height:42vh; */
