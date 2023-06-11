@@ -35,6 +35,9 @@ const Home = () => {
         <div className='home-button'>  
       <button>Resume</button> 
          </div>
+         {/* <div className="home-button">
+          <button className='btn btn-success'>Resume</button>
+         </div> */}
     </div>
 
        <div className="homeimages">

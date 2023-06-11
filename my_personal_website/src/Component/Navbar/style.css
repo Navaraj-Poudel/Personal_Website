@@ -70,6 +70,7 @@ html{
 @media(max-width:644px){
     .navbar-item{
         display: none;
+        background-color: black;
     }
     .minimize-button{
         display: block;

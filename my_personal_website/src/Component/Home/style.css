@@ -22,6 +22,13 @@ background-color: #360F88;
 color: white;
 font-weight: 500;
 }
+/* .h-button button{
+ width:15vw;
+ font-size: 2.3rem;
+ font-weight: 700;
+ height: 7vh;
+border-radius:1rem;
+} */
 .homeimages{
     height:60vh;
     width:35vw;
