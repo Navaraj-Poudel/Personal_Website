@@ -8,8 +8,12 @@ html{
 
 .Navbar{
     height: 10vh;
-    background-color:white;
+    /* background-color:white; */
+        background-color:#ECECEC;
     display: flex;
+    position:sticky;
+    top: 0px;
+    z-index:1000;
     align-items: center;
     justify-content:space-between;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;}

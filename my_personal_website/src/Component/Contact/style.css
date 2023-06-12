@@ -108,6 +108,23 @@ letter-spacing: 1px;
 .footer_bottom p{
     text-align: center;
 }
+
+.footer_title{
+    animation: mover 1s infinite  alternate;
+}
+.socialmediaicon{
+    animation: mover 1s infinite  alternate;
+}
+.footer_bottom{
+    animation: mover 1s infinite  alternate;
+}
+@keyframes mover {
+    0% { transform: translateY(5px); }
+    100% { transform: translateY(-5px); }
+}
+
+
+
 @media(max-width:500px){
     .facebook{
         margin-left: 40px;

@@ -76,10 +76,13 @@ const Contact = () => {
           <p id='submitrelated'></p>
           </form>
           <div className="footer"><br /><br />
+          <div className="fottersecond" data-aos = "fade-up" data-aos-duration="3000">
+
+          
              <div className="footer_title">
-             <p data-aos = "flip-right" data-aos-duration="3000"> Get In Touch</p>
+             <p> Get In Touch</p>
              </div>
-             <div className="socialmediaicon" data-aos = "flip-right" data-aos-duration="3000" >
+             <div className="socialmediaicon"  >
               <div className="facebook">
                 <Link to="/about">
                   <p>
@@ -128,6 +131,9 @@ const Contact = () => {
              <div className="footer_bottom">
             <p> @ 2022 copyright all right reserved</p>
              </div>
+
+             </div>
+
           </div>
           
     </>

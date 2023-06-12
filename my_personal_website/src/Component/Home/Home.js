@@ -10,6 +10,10 @@ import Typed from 'react-typed'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
+import Project from '../Project/Project'
+import Skills from '../Skills/Skills'
+import Contact from '../Contact/Contact'
+import Navbar from '../Navbar/Navbar'
 const Home = () => {
   const typed = useTypewriter({
     words : ['Developer','dkdjd','kdkdkd'],
@@ -20,7 +24,7 @@ const Home = () => {
   },[]);
   return (
     <>
-    
+
     <div className='Home'>
     <div className='home-details' data-aos="fade-right" data-aos-duration="1000">
         <p>
@@ -67,6 +71,10 @@ const Home = () => {
       <a href="" ><img src={L}alt="linkdin_images" /></a>
         <a href="https://github.com/Navaraj-Poudel"><img src={G} alt="github_images" /></a>
     </div>
+    <About/><br /><br /><br /><br /><br />
+    <Project/><br /><br /><br /><br /><br />
+    <Skills/><br /><br /><br /><br /><br />
+    <Contact/>
     </>
   )
 }
