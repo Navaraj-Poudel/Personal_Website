@@ -1,21 +1,28 @@
-import React from 'react'
+import {React,useEffect} from 'react'
 import './style.css'
 import H from '../images/home.JPG'
 import L from '../images/linkdin.png'
 import G from '../images/github1.png'
+import { BsArrowUpRightCircleFill } from "react-icons/bs";
+import { Link } from 'react-router-dom'
 import About from '../About/About'
 import Typed from 'react-typed'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 const Home = () => {
   const typed = useTypewriter({
     words : ['Developer','dkdjd','kdkdkd'],
     loop : {},
   });
+  useEffect(()=>{
+    Aos.init()
+  },[]);
   return (
     <>
     
     <div className='Home'>
-    <div className='home-details'>
+    <div className='home-details' data-aos="fade-right" data-aos-duration="1000">
         <p>
             Hi,<br />
             It's me <span> Navaraj Poudel</span><br />
@@ -32,22 +39,32 @@ const Home = () => {
             />
             </span>
         </p>
-        <div className='home-button'>  
+        {/* <div className='home-button'>  
+        <a href= 'Navaraj Resume.pdf'
+        download='Navaraj Resume.pdf'
+        > 
       <button>Resume</button> 
-         </div>
-         {/* <div className="home-button">
-          <button className='btn btn-success'>Resume</button>
+        </a>
          </div> */}
+          <div className='h-button' data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom">  
+        <a href= 'Navaraj Resume.pdf'
+        download='Navaraj Resume.pdf'
+        > 
+      <button className='btn btn-success'> Download Resume <BsArrowUpRightCircleFill /></button> 
+        </a>
+         </div>
     </div>
 
-       <div className="homeimages">
+       <div className="homeimages" data-aos="zoom-in" data-aos-duration = "100">
         <img src={H} alt="" />
        </div>
        
 
     </div>
+
     <div className="homelink">
-      <a href=""><img src={L}alt="linkdin_images" /></a>
+      <a href="" ><img src={L}alt="linkdin_images" /></a>
         <a href="https://github.com/Navaraj-Poudel"><img src={G} alt="github_images" /></a>
     </div>
     </>

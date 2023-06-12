@@ -1,16 +1,21 @@
-import React from "react";
+import {React,useEffect} from "react";
 import "./style.css";
 import A1 from "../images/about.JPG";
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 const About = () => {
+  useEffect(()=>{
+    Aos.init({duration:3000})
+  },[]);
   return (
     <>
-      <div className="abouttitle">About</div>
+      <div className="abouttitle" data-aos = "flip-left">About</div>
       <div className="aboutsection">
-        <div className="aboutPhoto">
+        <div className="aboutPhoto" data-aos = "fade-right">
           <img src={A1} alt="about_Photo" />
         </div>
 
-        <div className="aboutmyself">
+        <div className="aboutmyself" data-aos = "fade-left">
           <h2>I am Navaraj Poudel</h2>
           <p>
             I have completed my BSc.(Hons) Computer Science from the University

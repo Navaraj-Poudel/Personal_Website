@@ -13,7 +13,7 @@
 .home-details span{
     color: #360F88;
 }
-.home-button button{
+/* .home-button button{
 font-size:2rem;
 width:10vw;
 height:6.1vh;
@@ -21,14 +21,19 @@ border-radius:0.8rem;
 background-color: #360F88;
 color: white;
 font-weight: 500;
-}
-/* .h-button button{
- width:15vw;
- font-size: 2.3rem;
- font-weight: 700;
- height: 7vh;
-border-radius:1rem;
 } */
+.h-button button{
+ width:18vw;
+ font-size: 2.2rem;
+ font-weight:600;
+ text-align: center;
+ height:7vh;
+ background-color: #360F88;
+border-radius:1rem;
+}
+.h-button button:hover{
+  background-color: #360F88;
+}
 .homeimages{
     height:60vh;
     width:35vw;

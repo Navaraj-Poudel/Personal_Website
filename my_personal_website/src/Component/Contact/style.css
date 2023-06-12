@@ -57,6 +57,12 @@
     width: 8vw;
     border-radius:10px;
 }
+#submitrelated{
+font-size:17px;
+color:green;
+font-weight:650;
+text-align: center;
+}
 .footer{
     background-color:black;
     height: 32vh;
