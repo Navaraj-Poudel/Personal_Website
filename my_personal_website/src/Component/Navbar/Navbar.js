@@ -13,11 +13,11 @@ const Navbar = () => {
         </div>
 
         <div className="navbar-item">
-            <Link to="/">Home</Link>
-            <Link to="/about">About</Link>
-            <Link to="/project">Projects</Link>
-            <Link to="/skills">Skills</Link>
-            <Link to="/contact">Contact</Link>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#project">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
          </div>
          <div className='minimize-button'>
          <FontAwesomeIcon icon={faBars} size ="2xl"/>

@@ -40,6 +40,7 @@ const Contact = () => {
     },[])
   return (
     <>
+    <div className="contact" id='contact'><br /><br /><br /><br /><br />
     <div className="contact_title" data-aos = "flip-right" data-aos-duration="500">
      Contact
     </div><br /> <br />
@@ -76,7 +77,7 @@ const Contact = () => {
           <p id='submitrelated'></p>
           </form>
           <div className="footer"><br /><br />
-          <div className="fottersecond" data-aos = "fade-up" data-aos-duration="3000">
+          <div className="fottersecond" data-aos = "fade-down" data-aos-duration="3000">
 
           
              <div className="footer_title">
@@ -135,7 +136,8 @@ const Contact = () => {
              </div>
 
           </div>
-          
+          </div>
+
     </>
   )
 }

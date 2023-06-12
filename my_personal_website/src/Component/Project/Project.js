@@ -1,7 +1,7 @@
 import {React,useEffect} from "react";
 import "./style.css";
 import { Link } from 'react-router-dom'
-import H from "../images/home.JPG";
+// import H from "../images/home.JPG";
 import 'aos/dist/aos.css'
 import Aos from 'aos'
 import Newsapp from "../images/newsapp2.jpg";
@@ -14,10 +14,12 @@ const Project = () => {
       },[]);
   return (
     <>
+    <div id="project"><br /><br /><br /><br /><br />
       <div className="projecttitle" data-aos="flip-right" data-aos-duration = "200">Projects</div>
       <br />
       <br />
-      <div className="project" data-aos="zoom-in-down" data-aos-duration="2000">
+      <br />
+      <div className="project" data-aos="fade-right" data-aos-duration="2000">
         <div className="projectbox">
           <div className="project-card">
             <img src={Newsapp} alt="" />
@@ -167,6 +169,8 @@ const Project = () => {
             </div>
           </div>
         </div>
+      </div>
+
       </div>
     </>
   );

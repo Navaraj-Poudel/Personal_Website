@@ -9,6 +9,7 @@ const About = () => {
   },[]);
   return (
     <>
+    <div id="about"><br /><br /><br /><br /><br />
       <div className="abouttitle" data-aos = "flip-left">About</div>
       <div className="aboutsection">
         <div className="aboutPhoto" data-aos = "fade-right">
@@ -43,6 +44,8 @@ const About = () => {
           </div>
         </div>
       </div>
+      </div>
+
     </>
   );
 };

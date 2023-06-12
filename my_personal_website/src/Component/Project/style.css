@@ -123,3 +123,8 @@
     }
     
 }
+@media(max-width:550px) {
+    .projecttitle{
+        margin-top:30rem;
+    }
+}
