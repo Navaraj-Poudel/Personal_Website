@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState,useRef } from 'react'
 import './style.css'
+import emailjs from '@emailjs/browser';
 import Button from '@mui/material/Button';
 import {BsFacebook} from 'react-icons/bs';
 import {BsInstagram} from 'react-icons/bs';
@@ -11,6 +12,8 @@ import Aos from 'aos'
 import 'aos/dist/aos.css'
 import TextField from '@mui/material/TextField';
 const Contact = () => {
+  
+  const form = useRef();
   const[name,setName] = useState("")
   // console.log({name})
   const[email,setEmail] = useState("")
@@ -27,14 +30,38 @@ const Contact = () => {
     const messagechange = (event)=>{
       setMessage(event.target.value)
     }
-    const handleSubmit = (e)=>{
-      e.preventDefault();
-      console.log(`Name : ${name}`)
+
+    // const handleSubmit = (e)=>{
+    //   e.preventDefault();
+    //   console.log(`Name : ${name}`)
+    //   console.log(`Email Address : ${email}`)
+    //   console.log(`Message : ${message}`)
+    //   setDisable('submitted');
+    //   document.getElementById("submitrelated").innerHTML = "Your infromation have been submitted successfully!!!"
+    // }
+
+
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(`Name : ${name}`)
       console.log(`Email Address : ${email}`)
       console.log(`Message : ${message}`)
       setDisable('submitted');
       document.getElementById("submitrelated").innerHTML = "Your infromation have been submitted successfully!!!"
-    }
+
+    emailjs.sendForm('service_0gmgmck', 'template_w5aa0bo', form.current, 'Iyitp58rKkYfmMyAT')
+      .then((result) => {
+          console.log(result.text);
+          console.log("message sent");
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
+
+
+
     useEffect(()=>{
       Aos.init()
     },[])
@@ -44,19 +71,22 @@ const Contact = () => {
     <div className="contact_title" data-aos = "flip-right" data-aos-duration="500">
      Contact
     </div><br /> <br />
-    <form data-aos = "fade-right" data-aos-duration="3000" >
+
+    <form data-aos = "fade-right" data-aos-duration="3000" ref={form} >
 
     <div className='box'>
         <input
         placeholder= "Name"
         type='text'
         id='name'
+        name="user_name" 
         onClick={()=>setName("")}
         onChange={handleChange}
         /> <br /> <br /> <br /><br />
         <input
         placeholder="Email address"
         type='email'
+        name="user_email"
         id='email'
         onClick={()=>setEmail("")}
         onChange={emailChange}
@@ -66,6 +96,7 @@ const Contact = () => {
             <textarea 
             placeholder="Message"
             type = 'text'
+            name="message"
             id='message'
             onChange={messagechange}
             onClick={()=>setMessage("")}
@@ -76,8 +107,26 @@ const Contact = () => {
           </div><br /><br />
           <p id='submitrelated'></p>
           </form>
+
+        {/* from emailjs */}
+
+
+
+        {/* <form ref={form} onSubmit={sendEmail}>
+      <label>Name</label>
+      <input type="text" name="user_name" />
+      <label>Email</label>
+      <input type="email" name="user_email" />
+      <label>Message</label>
+      <textarea name="message" />
+      <input type="submit" value="Send" />
+    </form> */}
+
+
+
+
           <div className="footer"><br /><br />
-          <div className="fottersecond" data-aos = "fade-down" data-aos-duration="3000">
+          <div className="fottersecond" data-aos = "fade-up" data-aos-duration="3000">
 
           
              <div className="footer_title">

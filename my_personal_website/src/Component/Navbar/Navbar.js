@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faBars} from '@fortawesome/free-solid-svg-icons'
 import H from '../images/home.JPG'
 import './style.css'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 const Navbar = () => {
   return (
     <div className='Navbar'>
@@ -21,6 +21,8 @@ const Navbar = () => {
          </div>
          <div className='minimize-button'>
          <FontAwesomeIcon icon={faBars} size ="2xl"/>
+         
+          
         </div>
     </div>
   )

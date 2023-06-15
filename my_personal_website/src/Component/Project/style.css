@@ -128,3 +128,8 @@
         margin-top:40rem;
     }
 }
+@media(max-width:468px) {
+    .projecttitle{
+        margin-top:46rem;
+    }
+}

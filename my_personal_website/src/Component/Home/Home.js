@@ -4,21 +4,21 @@ import H from '../images/home.JPG'
 import L from '../images/linkdin.png'
 import G from '../images/github1.png'
 import { BsArrowUpRightCircleFill } from "react-icons/bs";
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import About from '../About/About'
 import Typed from 'react-typed'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
-import { useTypewriter, Cursor } from 'react-simple-typewriter'
+// import { useTypewriter} from 'react-simple-typewriter'
 import Project from '../Project/Project'
 import Skills from '../Skills/Skills'
 import Contact from '../Contact/Contact'
-import Navbar from '../Navbar/Navbar'
+// import Navbar from '../Navbar/Navbar'
 const Home = () => {
-  const typed = useTypewriter({
-    words : ['Developer','dkdjd','kdkdkd'],
-    loop : {},
-  });
+  // const typed = useTypewriter({
+  //   words : ['Developer','dkdjd','kdkdkd'],
+  //   loop : {},
+  // });
   useEffect(()=>{
     Aos.init()
   },[]);
