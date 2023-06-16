@@ -8,8 +8,8 @@ html{
 
 .Navbar{
     height: 10vh;
-    background-color:white;
-        /* background-color:#ECECEC; */
+    /* background-color:white; */
+        background-color:#ECECEC;
     display: flex;
     position:sticky;
     top: 0px;
