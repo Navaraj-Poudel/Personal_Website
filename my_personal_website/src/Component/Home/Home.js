@@ -22,6 +22,10 @@ const Home = () => {
   useEffect(()=>{
     Aos.init()
   },[]);
+
+  useEffect(()=>{
+    document.title = "Navaraj Poudel"
+  },[])
   return (
     <>
     <div className='Home' id='home'>
