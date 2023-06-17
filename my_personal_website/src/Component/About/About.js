@@ -16,7 +16,7 @@ const About = () => {
           <img src={A1} alt="about_Photo" />
         </div>
 
-        <div className="aboutmyself" data-aos = "fade-left">
+        <div className="aboutmyself" data-aos = "fade-up">
           <h2>I am Navaraj Poudel</h2>
           <p>
             I have completed my BSc.(Hons) Computer Science from the University

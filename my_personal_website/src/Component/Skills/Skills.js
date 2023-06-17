@@ -77,11 +77,11 @@ const Skills = () => {
 
 
 
-        <div className="skills-box-title"  data-aos="fade-left" data-aos-duration = "1000">
+        <div className="skills-box-title"  data-aos="fade-up" data-aos-duration = "1000">
         <h2>Web Development Skills</h2>
      </div> <br />
 
-     <div class="skills-container"  data-aos="fade-left" data-aos-duration = "2000">
+     <div class="skills-container"  data-aos="fade-up" data-aos-duration = "2000">
        
       <div class="skills-box">
        <div class="skills-title">
