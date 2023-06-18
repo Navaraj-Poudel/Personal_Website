@@ -28,7 +28,7 @@ const Home = () => {
   },[])
   return (
     <>
-    <div className='Home' id='home'>
+    <div className='Home'id='home'>
     <div className='home-details' data-aos="fade-right" data-aos-duration="1000">
         <p>
             Hi,<br />
@@ -69,7 +69,6 @@ const Home = () => {
        
 
     </div>
-
     <div className="homelink">
       <a href="" ><img src={L}alt="linkdin_images" /></a>
         <a href="https://github.com/Navaraj-Poudel"><img src={G} alt="github_images" /></a>
@@ -78,6 +77,7 @@ const Home = () => {
     <Project/>
     <Skills/>
     <Contact/>
+  
     </>
   )
 }

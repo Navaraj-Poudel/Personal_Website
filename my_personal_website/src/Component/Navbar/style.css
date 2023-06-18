@@ -105,6 +105,9 @@ html{
     html{
         font-size: 45%;
     }
+    .navbar-logo img{
+        width: 5vw;
+    }
    
 }
 @media(max-width:644px){
@@ -118,6 +121,9 @@ html{
     }
     .navbar-item1{
         display: block;
+    }
+    .navbar-logo img{
+        width:7vw;
     }
     /* .navbar-item{
         margin-top:62rem;
@@ -145,3 +151,5 @@ html{
         font-size:35%;
     }
 }
+/* @media(max-width:500px{
+} */

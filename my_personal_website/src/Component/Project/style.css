@@ -128,8 +128,16 @@
         margin-top:40rem;
     }
 }
-@media(max-width:468px) {
+@media(max-width:500px){
     .projecttitle{
         margin-top:46rem;
+    }
+}
+@media(max-width:468px) {
+    .projecttitle{
+        margin-top:50rem;
+    }
+    .project-card{
+        height:75vh;
     }
 }
