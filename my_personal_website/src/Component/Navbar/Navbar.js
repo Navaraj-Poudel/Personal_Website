@@ -5,6 +5,11 @@ import H from '../images/home.JPG'
 import './style.css'
 // import { Link } from 'react-router-dom'
 const Navbar = () => {
+  const [toggle,setTogggle] = useState(false)
+  const handleToggle =()=>{
+    setTogggle(!toggle)
+    console.log(toggle)
+  }
   return (
     <div className='Navbar'>
         <div className='navbar-logo'>
@@ -19,7 +24,16 @@ const Navbar = () => {
             <a href="#skills">Skills</a>
             <a href="#contact">Contact</a>
          </div>
-         <div className='minimize-button'>
+     {(toggle)?<div className="navbar-item1" data-aos="fade-right" data-aos-duration="500" onClick={()=> setTogggle(!toggle)}>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#project">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+         </div> : null}
+         
+
+         <div className='minimize-button' onClick={handleToggle}>
          <FontAwesomeIcon icon={faBars} size ="2xl"/>
          
           
