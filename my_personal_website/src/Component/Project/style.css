@@ -6,8 +6,18 @@
     color: #360F88;
     margin-top:0.4rem;
     width:7vw;
-    border-bottom:0.3rem solid #360F88;
 }
+.projecttitle:after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom:-25%;
+    transform: translateX(-30%);
+    width: 100px;
+    height:4px;
+    background-color: #360F88;
+    border-radius: 2px;
+    }
 .project{
     display: flex;
 }
@@ -132,6 +142,7 @@
     .projecttitle{
         margin-top:50rem;
     }
+
 }
 @media(max-width:468px) {
     .projecttitle{
@@ -141,6 +152,6 @@
         height:75vh;
     }
     .project-card{
-        height:73vh;
+        height:70vh;
     }
 }

@@ -6,8 +6,18 @@
     color: #360F88;
     margin-top:0.4rem;    
     width:7.3vw;
-    border-bottom:0.3rem solid #360F88;
 }
+.contact_title:after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom:-25%;
+    transform: translateX(-50%);
+    width: 100px;
+    height:4px;
+    background-color: #360F88;
+    border-radius: 2px;
+    }
 .box{
     /* margin-left: 600px; */
     margin-left: auto;

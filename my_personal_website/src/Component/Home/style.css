@@ -142,7 +142,7 @@ border-radius:1rem;
 @media(max-width:500px){
   .home-details{
     margin-left:10rem;
-    width: 65vw;
+    width:80vw;
   }
   .home-details p{
     margin-top:10rem;
@@ -151,10 +151,11 @@ border-radius:1rem;
     margin-top:5rem;
   }
   .h-button button{
-    width: 40vw;
+    width:45vw;
   }
   .homeimages img{
-    width: 60vw;
+    /* width: 60vw; */
+    width: auto;
     margin-top: -15rem;
     margin-left:3rem;
  

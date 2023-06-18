@@ -6,8 +6,19 @@
     color: #360F88;
     margin-top:0.4rem;
     width:6vw;
-    border-bottom:0.3rem solid #360F88;
 }
+.abouttitle:after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom:-25%;
+    transform: translateX(-50%);
+    width: 100px;
+    height:4px;
+    background-color: #360F88;
+    border-radius: 2px;
+    }
+
 .aboutsection{
     display: flex;
 }
@@ -75,7 +86,6 @@
      }
      .abouttitle{
         width:8vw;
-        border-bottom:0.4rem solid #360F88;
     }
 }
 @media(min-width:896px) and (max-width:1024px){
@@ -94,8 +104,7 @@
     }
     .abouttitle{
         width:10vw;
-        border-bottom:0.3rem solid #360F88;
-    }
+        }
 
 }
 @media(min-width:1024px) and (max-width:1200px) {
@@ -104,8 +113,8 @@
     }
     .abouttitle{
         width:8vw;
-        border-bottom:0.3rem solid #360F88;
-    }
+
+        }
 }
 @media(max-width:660px){
 .aboutPhoto{
@@ -119,7 +128,6 @@
 }
 .abouttitle{
     width:10vw;
-    border-bottom:0.4rem solid #360F88;
 }
 }
 @media(max-width:550px){
@@ -138,7 +146,6 @@
         margin-left: auto;
         margin-right: auto;
         width:12vw;
-        border-bottom:0.4rem solid #360F88;
     }
     .aboutmyself{
         margin-left:22rem;
@@ -156,8 +163,11 @@
     .aboutPhoto{
         margin-left:15rem;
         }
+        .aboutPhoto img{
+            width: auto;
+        }
         .aboutmyself{
-            margin-left:18rem;
+            margin-left:20rem;
             margin-top:6rem;
             width:50vw ;
         }

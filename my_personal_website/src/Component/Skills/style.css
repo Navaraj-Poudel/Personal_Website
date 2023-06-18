@@ -32,6 +32,7 @@
     padding: 1rem;
     position: relative;
     }
+
     .skills-header h1{
         font-size: 3rem;
         font-weight:700;
@@ -93,11 +94,11 @@
     position: relative;
     }
     
-    .skills-title:after{
+    /* .skills-title:after{
     content: '';
     position:absolute;
     bottom: 0;
-    right: 50%;
+    right: 150%;
     width:20px;
     height:4px;
     border-radius: 2px 0 0 2px;
@@ -114,7 +115,7 @@
     height:4px;
     border-radius: 0 2px 2px 0;
     background-color: #2ecc71;
-    }
+    } */
     
     .skills-icons{
     width:50px;

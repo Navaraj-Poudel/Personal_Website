@@ -151,5 +151,8 @@ html{
         font-size:35%;
     }
 }
-/* @media(max-width:500px{
-} */
+@media(max-width:500px){
+    .navbar-logo img{
+        width:8.5vw;
+    }
+}

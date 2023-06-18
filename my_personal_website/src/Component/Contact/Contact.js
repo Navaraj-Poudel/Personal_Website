@@ -126,7 +126,7 @@ const Contact = () => {
 
 
           <div className="footer"><br /><br />
-          <div className="fottersecond" data-aos = "fade-up" data-aos-duration="3000">
+          <div className="fottersecond" data-aos = "fade-right" data-aos-duration="3000">
 
           
              <div className="footer_title">
