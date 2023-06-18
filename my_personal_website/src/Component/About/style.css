@@ -149,3 +149,16 @@
         width:50vw;
     }
 }
+@media(max-width:500px){
+    .abouttitle{
+        margin-left:25rem;
+    }
+    .aboutPhoto{
+        margin-left:15rem;
+        }
+        .aboutmyself{
+            margin-left:18rem;
+            margin-top:6rem;
+            width:50vw ;
+        }
+}

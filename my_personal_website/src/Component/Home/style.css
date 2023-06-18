@@ -139,9 +139,9 @@ border-radius:1rem;
         width: 20vw;
       }
 }
-@media(max-width:460px){
+@media(max-width:500px){
   .home-details{
-    margin-left: 20rem;
+    margin-left:10rem;
     width: 65vw;
   }
   .home-details p{
@@ -156,11 +156,11 @@ border-radius:1rem;
   .homeimages img{
     width: 60vw;
     margin-top: -15rem;
-    margin-left:10rem;
+    margin-left:3rem;
  
   }
   .homelink{
     margin-top:-25rem;
-    text-align: center;
+    margin-left:20rem;
   }
 }
