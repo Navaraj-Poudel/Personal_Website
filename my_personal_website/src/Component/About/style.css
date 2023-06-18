@@ -161,10 +161,14 @@
         margin-left:25rem;
     }
     .aboutPhoto{
-        margin-left:15rem;
+        margin-left:8rem;
+        /* margin-left: auto;
+        margin-right: auto; */
         }
         .aboutPhoto img{
             width: auto;
+            margin-left: auto;
+            margin-right: auto;
         }
         .aboutmyself{
             margin-left:20rem;
