@@ -21,3 +21,10 @@
         width:8vw;
     }
 }
+@media(max-width:468px){
+    .upwardarrow{
+        margin-left:55rem;
+        margin-top:60rem;
+        width:8vw;
+    }
+}
