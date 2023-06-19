@@ -158,7 +158,7 @@
 }
 @media(max-width:500px){
     .abouttitle{
-        margin-left:25rem;
+        margin-left:20rem;
     }
     .aboutPhoto{
         margin-left:8rem;
@@ -171,8 +171,12 @@
             margin-right: auto;
         }
         .aboutmyself{
-            margin-left:20rem;
+            margin-left:15rem;
             margin-top:6rem;
-            width:50vw ;
+            width:60vw ;
+        }
+        .abouteducation{
+            width: 60vw;
+            
         }
 }

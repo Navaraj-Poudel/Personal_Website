@@ -140,7 +140,16 @@
 }
 @media(max-width:500px){
     .projecttitle{
-        margin-top:50rem;
+        margin-top:52rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .project-card{
+        width: 75vw;
+        height:60vh;
+    }
+    .project-card img{
+        width: 75vw;
     }
 
 }
@@ -151,7 +160,11 @@
     .projectbox{
         height:75vh;
     }
+    .project-card img{
+        width: 75vw;
+    }
     .project-card{
-        height:70vh;
+        height:68vh;
+         width:75vw;
         }
 }
