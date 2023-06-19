@@ -1,0 +1,23 @@
+.upwardarrow p{
+    font-size: 3rem;
+    align-items: center;
+    text-align: center;
+    color:white;
+}
+.upwardarrow{
+    width:3vw;
+    background-color:#360F88;
+    border-radius: 100%;
+   margin-left:145rem;
+   margin-top:67rem;
+    position:fixed;
+    top: 0px;
+    z-index:1000;
+}
+@media(max-width:500px){
+    .upwardarrow{
+        margin-left:60rem;
+        margin-top:90rem;
+        width:8vw;
+    }
+}

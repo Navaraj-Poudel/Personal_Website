@@ -13,6 +13,7 @@ import 'aos/dist/aos.css'
 import Project from '../Project/Project'
 import Skills from '../Skills/Skills'
 import Contact from '../Contact/Contact'
+import Backtotop from '../Backtotop/Backtotop'
 // import Navbar from '../Navbar/Navbar'
 const Home = () => {
   // const typed = useTypewriter({
@@ -74,6 +75,7 @@ const Home = () => {
         <a href="https://github.com/Navaraj-Poudel"><img src={G} alt="github_images" /></a>
     </div>
     <About/>
+    <Backtotop/>
     <Project/>
     <Skills/>
     <Contact/>
