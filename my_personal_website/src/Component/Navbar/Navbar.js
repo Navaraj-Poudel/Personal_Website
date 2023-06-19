@@ -14,7 +14,7 @@ const Navbar = () => {
     <div className='Navbar'>
         <div className='navbar-logo'>
             <img src={H} alt="" />
-            <p>Navaraj Poudel</p>
+            <p> <span>N</span>avaraj Poudel</p>
         </div>
 
         <div className="navbar-item">

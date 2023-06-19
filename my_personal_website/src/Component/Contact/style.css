@@ -218,12 +218,12 @@ letter-spacing:0.1rem;
 }
 @media(max-width:468px){
     .box{
-        margin-left:20rem;
+        margin-left:15rem;
       }
       .textarea{
-          margin-left:20rem;
+          margin-left:15rem;
       }
       .contact_button{
-        margin-left: 28rem;
+        margin-left: 22rem;
       }
 }

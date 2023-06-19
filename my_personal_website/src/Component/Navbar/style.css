@@ -26,6 +26,9 @@ html{
     font-size: 2.1rem;
     font-weight: 700;
 }
+.navbar-logo span{
+    color:#360F88;
+}
 .navbar-logo img{
     width:3vw;
     border-radius:90%;
@@ -155,4 +158,13 @@ html{
     .navbar-logo img{
         width:8.5vw;
     }
+}
+@media(max-width:468px){
+    .navbar-logo img{
+        width:9.2vw;
+    }
+    .navbar-logo p{
+        font-size:2.2rem;
+    }
+
 }
