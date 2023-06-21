@@ -71,11 +71,11 @@ const Home = () => {
 
     </div>
     <div className="homelink">
-      <a href="" ><img src={L}alt="linkdin_images" /></a>
+      <a href="https://www.linkedin.com/in/navaraj-poudel/" ><img src={L}alt="linkdin_images" /></a>
         <a href="https://github.com/Navaraj-Poudel"><img src={G} alt="github_images" /></a>
     </div>
     <About/>
-    <Backtotop/>
+    {/* <Backtotop/> */}
     <Project/>
     <Skills/>
     <Contact/>

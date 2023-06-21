@@ -18,7 +18,7 @@ const Skills = () => {
     },[])
   return (
     <>
-      <div class="skills-section" id='skills'><br /><br /><br /><br />
+      <div class="skills-section" id='skills'><br /><br /><br />
     <div class="skills-header" data-aos="flip-right" data-aos-duration = "200">
      <h1>Skills</h1>   
      </div><br /><br /><br />

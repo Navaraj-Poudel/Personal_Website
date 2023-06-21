@@ -43,7 +43,7 @@ const Contact = () => {
 
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+    // e.preventDefault();
     console.log(`Name : ${name}`)
       console.log(`Email Address : ${email}`)
       console.log(`Message : ${message}`)
@@ -134,7 +134,7 @@ const Contact = () => {
              </div>
              <div className="socialmediaicon"  >
               <div className="facebook">
-                <Link to="/about">
+                <Link to="https://www.facebook.com/nawaraj.poudel.775">
                   <p>
 
                 <BsFacebook/>
@@ -142,7 +142,7 @@ const Contact = () => {
                 </Link>
               </div>
               <div className="facebook">
-              <Link to="/about">
+              <Link to="https://www.instagram.com/navarajpoudel9/">
                 <p>
 
                 <BsInstagram/>
@@ -151,7 +151,7 @@ const Contact = () => {
              
               </div>
               <div className="facebook">
-              <Link to="/about">
+              <Link to="https://www.linkedin.com/in/navaraj-poudel/">
                 <p>
 
                 <BsLinkedin/>
@@ -160,7 +160,7 @@ const Contact = () => {
              
               </div>
               <div className="facebook">
-              <Link to="/about"> 
+              <Link to="https://github.com/Navaraj-Poudel?tab=repositories"> 
               <p>
 
               <BsGithub/>
@@ -170,7 +170,7 @@ const Contact = () => {
             
               </div>
               <div className="facebook">
-              <Link to="/about"> 
+              <Link to="https://github.com/Navaraj-Poudel?tab=repositories"> 
               <p>
               <BsTwitter/>
               </p>
