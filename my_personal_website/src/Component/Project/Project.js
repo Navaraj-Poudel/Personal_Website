@@ -122,7 +122,7 @@ const Project = () => {
           </div>
         </div>
 
-        <div className="projectbox">
+        {/* <div className="projectbox">
           <div className="project-card">
             <img src={Trekimages} alt="" />
             <div className="projectdescription">
@@ -144,9 +144,9 @@ const Project = () => {
 
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <div className="projectbox">
+        {/* <div className="projectbox">
           <div className="project-card">
             <img src={Newsapp} alt="" />
             <div className="projectdescription">
@@ -168,7 +168,9 @@ const Project = () => {
 
             </div>
           </div>
-        </div>
+        </div> */}
+
+
       </div>
 
       </div>

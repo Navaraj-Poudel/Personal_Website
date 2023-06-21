@@ -19,9 +19,8 @@ const About = () => {
         <div className="aboutmyself" data-aos = "fade-up">
           <h2>I am Navaraj Poudel</h2>
           <p>
-            I have completed my BSc.(Hons) Computer Science from the University
-            of Wolverhampton. I have worked on both individual and group
-            projects. I love to do challenging tasks.I am a quick learner and
+            I have completed my bachelor in Electronics, Communication and information Engineering from Paschimanchal Campus(T.U). I have worked on both individual and group
+             projects. I am a quick learner and
             ready to take new challenges to give better performance.
           </p>
           <br />
