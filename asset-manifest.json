@@ -1,25 +1,30 @@
 {
   "files": {
-    "main.css": "/Personal_Website/static/css/main.d478ca9a.css",
-    "main.js": "/Personal_Website/static/js/main.9ff8304d.js",
-    "static/js/787.f8a0dea2.chunk.js": "/Personal_Website/static/js/787.f8a0dea2.chunk.js",
-    "static/media/about.JPG": "/Personal_Website/static/media/about.6084a3c797be799fd276.JPG",
+    "main.css": "/Personal_Website/static/css/main.670ed78d.css",
+    "main.js": "/Personal_Website/static/js/main.5776f337.js",
+    "static/js/453.22285d94.chunk.js": "/Personal_Website/static/js/453.22285d94.chunk.js",
+    "static/media/trek.JPG": "/Personal_Website/static/media/trek.540ac691816906beee4e.JPG",
     "static/media/home.JPG": "/Personal_Website/static/media/home.21ed4a93a11d37c2bd7e.JPG",
-    "static/media/newsapp2.jpg": "/Personal_Website/static/media/newsapp2.a13690b310937196a7ad.jpg",
+    "static/media/ehrms.png": "/Personal_Website/static/media/ehrms.f606e01c309ed5a3d349.png",
     "static/media/c++.png": "/Personal_Website/static/media/c++.e3840907d97777f7601f.png",
     "static/media/html.png": "/Personal_Website/static/media/html.dd273753240c22667862.png",
-    "static/media/trekking.jpg": "/Personal_Website/static/media/trekking.88463211b2623bdfdab5.jpg",
+    "static/media/newsapp.jpg": "/Personal_Website/static/media/newsapp.b3e1794a791f31534d42.jpg",
+    "static/media/nav.jpg": "/Personal_Website/static/media/nav.4df379f7d5f3d9156605.jpg",
     "static/media/textutils3.jpg": "/Personal_Website/static/media/textutils3.b7496a067b5ec2fabe1e.jpg",
     "static/media/tailwind.png": "/Personal_Website/static/media/tailwind.9c2e5bcf4f97d73e438e.png",
+    "static/media/agrobot.jpg": "/Personal_Website/static/media/agrobot.a6e98d17b50abbd1c4b9.jpg",
+    "static/media/adobephotoshop.png": "/Personal_Website/static/media/adobephotoshop.5bea1cfefc23110f17c9.png",
     "static/media/c.png": "/Personal_Website/static/media/c.bbbbbabc8c191bfb99bf.png",
-    "static/media/linkdin.png": "/Personal_Website/static/media/linkdin.032cf8a63be2f0f4d425.png",
+    "static/media/python2.webp": "/Personal_Website/static/media/python2.7a9da81b5ea6a4550127.webp",
+    "static/media/bash.webp": "/Personal_Website/static/media/bash.2dd50bba50b982a14dfe.webp",
     "index.html": "/Personal_Website/index.html",
-    "main.d478ca9a.css.map": "/Personal_Website/static/css/main.d478ca9a.css.map",
-    "main.9ff8304d.js.map": "/Personal_Website/static/js/main.9ff8304d.js.map",
-    "787.f8a0dea2.chunk.js.map": "/Personal_Website/static/js/787.f8a0dea2.chunk.js.map"
+    "static/media/mongodb.svg": "/Personal_Website/static/media/mongodb.bfa6cdd80f4a99232cadb39ebbb976d2.svg",
+    "main.670ed78d.css.map": "/Personal_Website/static/css/main.670ed78d.css.map",
+    "main.5776f337.js.map": "/Personal_Website/static/js/main.5776f337.js.map",
+    "453.22285d94.chunk.js.map": "/Personal_Website/static/js/453.22285d94.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d478ca9a.css",
-    "static/js/main.9ff8304d.js"
+    "static/css/main.670ed78d.css",
+    "static/js/main.5776f337.js"
   ]
 }
