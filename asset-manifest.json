@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Personal_Website/static/css/main.4ec364ae.css",
-    "main.js": "/Personal_Website/static/js/main.8fcc8fc9.js",
+    "main.js": "/Personal_Website/static/js/main.cfc14288.js",
     "static/js/453.22285d94.chunk.js": "/Personal_Website/static/js/453.22285d94.chunk.js",
     "static/media/trek.JPG": "/Personal_Website/static/media/trek.540ac691816906beee4e.JPG",
     "static/media/home.JPG": "/Personal_Website/static/media/home.21ed4a93a11d37c2bd7e.JPG",
@@ -9,7 +9,6 @@
     "static/media/c++.png": "/Personal_Website/static/media/c++.e3840907d97777f7601f.png",
     "static/media/html.png": "/Personal_Website/static/media/html.dd273753240c22667862.png",
     "static/media/newsapp.jpg": "/Personal_Website/static/media/newsapp.b3e1794a791f31534d42.jpg",
-    "static/media/nav.jpg": "/Personal_Website/static/media/nav.4df379f7d5f3d9156605.jpg",
     "static/media/textutils3.jpg": "/Personal_Website/static/media/textutils3.b7496a067b5ec2fabe1e.jpg",
     "static/media/tailwind.png": "/Personal_Website/static/media/tailwind.9c2e5bcf4f97d73e438e.png",
     "static/media/agrobot.jpg": "/Personal_Website/static/media/agrobot.a6e98d17b50abbd1c4b9.jpg",
@@ -20,11 +19,11 @@
     "index.html": "/Personal_Website/index.html",
     "static/media/mongodb.svg": "/Personal_Website/static/media/mongodb.bfa6cdd80f4a99232cadb39ebbb976d2.svg",
     "main.4ec364ae.css.map": "/Personal_Website/static/css/main.4ec364ae.css.map",
-    "main.8fcc8fc9.js.map": "/Personal_Website/static/js/main.8fcc8fc9.js.map",
+    "main.cfc14288.js.map": "/Personal_Website/static/js/main.cfc14288.js.map",
     "453.22285d94.chunk.js.map": "/Personal_Website/static/js/453.22285d94.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4ec364ae.css",
-    "static/js/main.8fcc8fc9.js"
+    "static/js/main.cfc14288.js"
   ]
 }
