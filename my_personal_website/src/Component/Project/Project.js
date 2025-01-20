@@ -31,7 +31,7 @@ const Project = () => {
         <div className="project" data-aos="fade-right" data-aos-duration="2000">
           {/* First Row */}
           <div className="projectbox">
-            <a href="https://github.com/Navaraj-Poudel/Newsapps" target="_blank" rel="noopener noreferrer" className="project-card">
+            <a href="https://github.com/Navaraj-Poudel/Electronic_Health_Record_Management_System_Using_RFID_Card.git" target="_blank" rel="noopener noreferrer" className="project-card">
               <img src={Ehrms} alt="" />
               <div className="projectdescription">
                 <br />
@@ -95,7 +95,7 @@ const Project = () => {
           </div>
 
           <div className="projectbox">
-            <a href="https://github.com/Navaraj-Poudel/TextUtils" target="_blank" rel="noopener noreferrer" className="project-card">
+            <a rel="noopener noreferrer" className="project-card">
               <img src={Agrobot} alt="" />
               <div className="projectdescription">
                 <br />
