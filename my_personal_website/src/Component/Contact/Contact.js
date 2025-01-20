@@ -21,6 +21,12 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setDisable("submitted");
+
+    // Clear form fields
+    setName("");
+    setEmail("");
+    setMessage("");
+
     document.getElementById("submitrelated").innerHTML = "Your information has been submitted successfully!";
 
     emailjs
@@ -90,41 +96,40 @@ const Contact = () => {
         <p id="submitrelated"></p>
       </form>
       <div className="footer">
-  <br />
-  <div className="footer_content" data-aos-duration="3000">
-    <div className="footer_title">
-      <p>Find Me Here:</p>
-    </div>
-    <div className="footer_description">
-  <p>
-    Email : 
-    <a href="mailto:poudelnavaraj90@gmail.com" style={{ color: 'white', textDecoration: 'none' }} target="_blank">
-      poudelnavaraj90@gmail.com
-    </a>
-  </p>
-</div>
-
-    <div className="socialmediaicon">
-      <Link to="https://www.linkedin.com/in/navaraj-poudel/" target="_blank">
-        <BsLinkedin />
-      </Link>
-      <Link to="https://github.com/Navaraj-Poudel?tab=repositories" target="_blank">
-        <BsGithub />
-      </Link>
-      <Link to="https://www.instagram.com/navarajpoudel9/" target="_blank">
-        <BsInstagram />
-      </Link>
-      <Link to="https://www.facebook.com/nawaraj.poudel.775" target="_blank">
-        <BsFacebook />
-      </Link>
-      <Link to="https://twitter.com/" target="_blank">
-        <BsTwitter />
-      </Link>
-    </div>
-    <div className="footer_bottom">
-    </div>
-  </div>
-</div>
+        <br />
+        <div className="footer_content" data-aos-duration="3000">
+          <div className="footer_title">
+            <p>Find Me Here:</p>
+          </div>
+          <div className="footer_description">
+            <p>
+              Email : 
+              <a href="mailto:poudelnavaraj90@gmail.com" style={{ color: 'white', textDecoration: 'none' }} target="_blank" rel="noopener noreferrer">
+                poudelnavaraj90@gmail.com
+              </a>
+            </p>
+          </div>
+          <div className="socialmediaicon">
+            <Link to="https://www.linkedin.com/in/navaraj-poudel/" target="_blank">
+              <BsLinkedin />
+            </Link>
+            <Link to="https://github.com/Navaraj-Poudel?tab=repositories" target="_blank">
+              <BsGithub />
+            </Link>
+            <Link to="https://www.instagram.com/navarajpoudel9/" target="_blank">
+              <BsInstagram />
+            </Link>
+            <Link to="https://www.facebook.com/nawaraj.poudel.775" target="_blank">
+              <BsFacebook />
+            </Link>
+            <a href="https://twitter.com/navarajpoudel9" target="_blank" rel="noopener noreferrer">
+              <BsTwitter />
+            </a>
+          </div>
+          <div className="footer_bottom">
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
