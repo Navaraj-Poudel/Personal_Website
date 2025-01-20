@@ -17,7 +17,7 @@ const About = () => {
         <div className="aboutsection">
           <div className="aboutmyself">
             <p>
-            I am a graduate of the Institute of Engineering, Paschimanchal Campus, 
+            I am a graduated from the Institute of Engineering, Paschimanchal Campus, 
             with hands-on experience in system and network engineering. Over the course of my career,
              I have gained valuable experience in managing and securing network infrastructures. 
              I have also contributed to the field with the publication of two research papers and am passionate about advancing my knowledge through research. 
@@ -47,8 +47,9 @@ const About = () => {
             <h3>Experience</h3>
             <div className="experiencebox">
               <div className="boxcontent">
-                <h2>Network and System Engineer | Wepro Technology</h2>                <p>
-                • Implemented and managed computer networks, including the configuration of network devices. <br/>
+                <h2>Network and System Engineer | Wepro Technology</h2>             
+                 <p>
+                • Implemented and managed computer networks, including the configuration of network devices.<br/>
                 • Improved network security by performing vulnerability assessments and recommending new technologies. 
                 </p>
                 <span>May 2023 - Nov 2023</span>

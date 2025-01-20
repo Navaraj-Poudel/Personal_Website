@@ -50,6 +50,7 @@
   .aboutmyself p {
     font-size: 1.8rem;
     font-weight: 600;
+    text-align: justify;
     color: black;
     /* opacity: 80%; */
     margin-top: 1rem;
@@ -86,6 +87,7 @@
   .boxcontent p {
     font-size: 1.8rem;
     color: black;
+    /* text-align: justify; */
     font-weight: bold;
   }
   
