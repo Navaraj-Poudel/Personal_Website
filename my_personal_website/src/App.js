@@ -16,7 +16,7 @@ function App() {
       <Router basename='/www.poudelnavaraj.com.np'>
      <Navbar/>
      <Routes>
-      <Route exact path='/' element= {<Home/>} />
+      <Route exact path='/www.poudelnavaraj.com.np' element= {<Home/>} />
       <Route exact path='/about' element={<About/>}/>
       <Route exact path='/contact' element={<Contact/>}/>
       <Route exact path='/project' element={<Project/>}/>
