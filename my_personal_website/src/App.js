@@ -13,7 +13,7 @@ import {
 function App() {
   return (
     <div>
-      <Router basename='/Personal_Website'>
+      <Router basename='/www.poudelnavaraj.com.np'>
      <Navbar/>
      <Routes>
       <Route exact path='/' element= {<Home/>} />
